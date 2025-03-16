@@ -1,5 +1,5 @@
 Portfolio Website - Ira Sriwulandari
-🚀 Live Site: irasriwulandari.xyz / irasriwulandari.pages.dev
+🚀 Live Site: https://irasriwulandari.pages.dev
 
 ## 📌 About
 This is my personal portfolio website showcasing my work, skills, and experience.
