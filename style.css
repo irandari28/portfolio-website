@@ -812,7 +812,7 @@ i {
     width: 100%;
     max-height: fit-content;
     display: inline-block;
-    padding-top: 10%;
+    padding-top: 18%;
     align-items: top;
     justify-content: right;
     font-family: "Outfit";
@@ -824,16 +824,29 @@ i {
     padding-right: 2%;
 }
 
+.contact-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3%;
+    margin-top: 5%;
+}
 .fa-envelope, .fa-linkedin, .fa-github {
-    font-size: 50%;
+    font-size: 100%;
     color: #FCDEAF;
     margin-right: 10px;
 }
 
 .contact-item {
-   margin-right: 10px;
-   height: 100px;
+   height: 100%;
+   align-items: right;
 }
+
+.contact-icon {
+    color: #FCDEAF;
+}
+
+
 
 @media screen and (max-width: 600px) {
     .container {
@@ -1316,8 +1329,8 @@ i {
         padding-top: 50%;
     }
 
-    .fa-envelope, .fa-linkedin {
-        font-size: 30px;
+    .fa-envelope, .fa-linkedin, .fa-github {
+        font-size: 60px;
 
     }
 
